@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="10" y="10" width="1057" height="793" text="Browser&#xA;http://..." locked="true" measuredWidth="1057" measuredHeight="793" verticalScrollbar="true">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="10" y="62" width="1042" height="61" locked="true" measuredWidth="1042" measuredHeight="61"/>
+  <widgets xsi:type="model:Image" id="3" x="41" y="68" width="67" height="49" locked="true" measuredWidth="67" measuredHeight="49"/>
+  <widgets xsi:type="model:Text" id="4" x="874" y="81" width="81" height="35" text="user" measuredWidth="81" measuredHeight="35" textAlignment="Center" link="admin.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="5" x="821" y="81" width="57" height="35" locked="true" measuredWidth="57" measuredHeight="35" icon="user (custom)"/>
+  <widgets xsi:type="model:Link" id="6" x="976" y="79" text="logout" measuredWidth="47" measuredHeight="28" link="login.screen">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="7" x="272" y="232" width="550" height="81" measuredWidth="550" measuredHeight="81"/>
+  <widgets xsi:type="model:Text" id="8" x="461" y="248" width="185" height="49" text="เพิ่มผู้ใช้" measuredWidth="185" measuredHeight="49" textAlignment="Center">
+    <font size="28px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="9" x="272" y="312" width="550" height="393" measuredWidth="550" measuredHeight="393"/>
+  <widgets xsi:type="model:Text" id="10" x="380" y="404" width="81" text="ชื่อ :" measuredWidth="81" measuredHeight="25">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="11" x="425" y="400" width="143" text="xxxxx" measuredWidth="143" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="12" x="588" y="400" width="143" text="xxxxxx" measuredWidth="143" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="13" x="480" y="448" width="201" text="xxxxxxxx" measuredWidth="201" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="14" x="396" y="452" width="81" text="รหัสผ่าน :" measuredWidth="81" measuredHeight="25">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="15" x="364" y="500" width="113" text="สิทธิ์การเข้าถึง :" measuredWidth="113" measuredHeight="25">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="16" x="486" y="496" width="189" text="xxxxxxxx" measuredWidth="189" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="17" x="338" y="616" width="149" height="57" text="แก้ไข" measuredWidth="149" measuredHeight="57">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="18" x="645" y="624" width="140" height="49" text="ยกเลิก" measuredWidth="140" measuredHeight="49" link="home.screen">
+    <font size="20px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

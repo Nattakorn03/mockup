@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="-15" y="16" width="1057" height="793" text="Browser&#xA;http://..." locked="true" measuredWidth="1057" measuredHeight="793" verticalScrollbar="true">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="-15" y="68" width="1042" height="61" locked="true" measuredWidth="1042" measuredHeight="61"/>
+  <widgets xsi:type="model:Image" id="3" x="16" y="74" width="67" height="49" locked="true" measuredWidth="67" measuredHeight="49"/>
+  <widgets xsi:type="model:Text" id="8" x="448" y="160" text="ระบบครุภัณฑ์" measuredWidth="163" measuredHeight="38" textAlignment="Center">
+    <font size="28px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="18" x="25" y="224" width="944" height="529" text="ปีงบประมาณ" measuredWidth="944" measuredHeight="529">
+    <font size="28px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="19" x="82" y="313" width="863" measuredWidth="863" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="20" x="86" y="376" width="863" measuredWidth="863" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="21" x="86" y="432" width="863" measuredWidth="863" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="22" x="90" y="496" width="863" measuredWidth="863" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="24" x="82" y="552" width="863" measuredWidth="863" measuredHeight="6"/>
+  <widgets xsi:type="model:Text" id="25" x="120" y="576" text="2558" measuredWidth="49" measuredHeight="31">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="26" x="120" y="328" text="2562" measuredWidth="49" measuredHeight="31">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="27" x="120" y="392" text="2561" measuredWidth="49" measuredHeight="31">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="28" x="120" y="448" text="2560" measuredWidth="49" measuredHeight="31">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="29" x="120" y="512" text="2559" measuredWidth="49" measuredHeight="31">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="30" x="82" y="611" width="863" measuredWidth="863" measuredHeight="6"/>
+  <widgets xsi:type="model:Text" id="31" x="120" y="283" text="2563" measuredWidth="49" measuredHeight="31">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="32" x="792" y="264" width="97" text="ดู" measuredWidth="97" measuredHeight="41" link="showdata.screen">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="33" x="792" y="328" width="97" text="ดู" measuredWidth="97" measuredHeight="41" link="showdata.screen">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="34" x="792" y="387" width="97" text="ดู" measuredWidth="97" measuredHeight="41" link="showdata.screen">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="35" x="792" y="448" width="97" text="ดู" measuredWidth="97" measuredHeight="41" link="showdata.screen">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="36" x="792" y="507" width="97" text="ดู" measuredWidth="97" measuredHeight="41" link="showdata.screen">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="37" x="792" y="566" width="97" text="ดู" measuredWidth="97" measuredHeight="41" link="showdata.screen">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="38" x="55" y="175" text="Home,เพิ่มข้อมูล,สร้างQRcode,สแกนQRcode,รายงาน" measuredWidth="329" measuredHeight="23">
+    <font/>
+    <items link="home.screen" x="0" y="0" width="36" height="23" text="Home"/>
+    <items link="adddata.screen" x="54" y="0" width="47" height="23" text="เพิ่มข้อมูล"/>
+    <items link="qrcode.screen" x="119" y="0" width="66" height="23" text="สร้างQRcode"/>
+    <items link="scanQR.screen" x="203" y="0" width="71" height="23" text="สแกนQRcode"/>
+    <items link="report.screen" x="292" y="0" width="36" height="23" text="รายงาน"/>
+  </widgets>
+  <widgets xsi:type="model:Breadcrumbs" id="44" x="809" y="640" text="1,2,3" measuredWidth="64" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="7" height="23" text="1"/>
+    <items x="27" y="0" width="7" height="23" text="2"/>
+    <items x="54" y="0" width="7" height="23" text="3"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="45" x="82" y="648" width="210" height="49" text="ครุภัณฑ์ที่ไม่ระบุปีงบประมาณ" measuredWidth="210" measuredHeight="49" link="showdata.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="46" x="864" y="81" width="81" height="35" text="user" measuredWidth="81" measuredHeight="35" textAlignment="Center" link="admin.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="47" x="808" y="81" width="57" height="35" measuredWidth="57" measuredHeight="35" icon="user (custom)"/>
+  <widgets xsi:type="model:Link" id="48" x="968" y="85" text="logout" measuredWidth="47" measuredHeight="28" link="login.screen">
+    <font size="15px" underline="false"/>
+  </widgets>
+  <hRuler>
+    <guides position="-37"/>
+  </hRuler>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

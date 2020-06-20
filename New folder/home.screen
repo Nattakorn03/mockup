@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="1" y="16" width="1057" height="793" text="Browser&#xA;http://..." locked="true" measuredWidth="1057" measuredHeight="793" verticalScrollbar="true">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="14" x="1" y="68" width="1042" height="61" locked="true" measuredWidth="1042" measuredHeight="61"/>
+  <widgets xsi:type="model:Image" id="16" x="8" y="74" width="75" height="49" locked="true" measuredWidth="75" measuredHeight="49"/>
+  <widgets xsi:type="model:Text" id="18" x="874" y="81" width="81" height="35" text="user" measuredWidth="81" measuredHeight="35" textAlignment="Center" link="admin.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="19" x="821" y="81" width="57" height="35" locked="true" measuredWidth="57" measuredHeight="35" icon="user (custom)"/>
+  <widgets xsi:type="model:Link" id="20" x="976" y="85" text="logout" measuredWidth="47" measuredHeight="28" link="login.screen">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="27" x="448" y="208" text="ระบบครุภัณฑ์" measuredWidth="163" measuredHeight="38" textAlignment="Center">
+    <font size="28px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="28" x="136" y="312" width="225" height="145" text="แสดงข้อมูล/ค้นหา" measuredWidth="225" measuredHeight="145" link="showdata.screen">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="30" x="386" y="312" width="225" height="145" text="เพิ่มข้อมูล" measuredWidth="225" measuredHeight="145" link="adddata.screen">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="31" x="653" y="312" width="225" height="145" text="สร้าง QR code" measuredWidth="225" measuredHeight="145" link="qrcode.screen">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="33" x="240" y="488" width="225" height="145" text="สแกน QR code" measuredWidth="225" measuredHeight="145" link="scanQR.screen">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="34" x="528" y="488" width="225" height="145" text="รายงาน" measuredWidth="225" measuredHeight="145" link="report.screen">
+    <font size="28px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
