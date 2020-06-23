@@ -16,33 +16,45 @@
   <widgets xsi:type="model:Text" id="55" x="461" y="248" width="185" height="49" text="เพิ่มผู้ใช้" measuredWidth="185" measuredHeight="49" textAlignment="Center">
     <font size="28px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Panel" id="57" x="272" y="312" width="550" height="393" measuredWidth="550" measuredHeight="393"/>
-  <widgets xsi:type="model:Text" id="58" x="380" y="404" width="81" text="ชื่อ :" measuredWidth="81" measuredHeight="25">
-    <font size="18px"/>
-  </widgets>
-  <widgets xsi:type="model:TextField" id="59" x="425" y="400" width="143" measuredWidth="143" measuredHeight="33">
-    <font size="18px"/>
-  </widgets>
-  <widgets xsi:type="model:TextField" id="60" x="588" y="400" width="143" measuredWidth="143" measuredHeight="33">
-    <font size="18px"/>
-  </widgets>
-  <widgets xsi:type="model:TextField" id="61" x="480" y="448" width="201" measuredWidth="201" measuredHeight="33">
-    <font size="18px"/>
-  </widgets>
-  <widgets xsi:type="model:Text" id="62" x="396" y="452" width="81" text="รหัสผ่าน :" measuredWidth="81" measuredHeight="25">
-    <font size="18px"/>
-  </widgets>
-  <widgets xsi:type="model:Text" id="63" x="364" y="500" width="113" text="สิทธิ์การเข้าถึง :" measuredWidth="113" measuredHeight="25">
-    <font size="18px"/>
-  </widgets>
-  <widgets xsi:type="model:Combo" id="64" x="486" y="496" width="189" measuredWidth="189" measuredHeight="33">
-    <font size="18px"/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="65" x="486" y="600" width="149" height="57" text="เพิ่ม" measuredWidth="149" measuredHeight="57">
+  <widgets xsi:type="model:Panel" id="57" x="272" y="312" width="550" height="321" locked="true" measuredWidth="550" measuredHeight="321"/>
+  <widgets xsi:type="model:Button" id="65" x="272" y="648" width="149" height="57" text="เพิ่ม" measuredWidth="149" measuredHeight="57" link="admin_conferim_add_account.screen">
     <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="66" x="888" y="744" width="127" height="41" text="กลับ" measuredWidth="127" measuredHeight="41" link="home.screen">
+  <widgets xsi:type="model:Button" id="66" x="685" y="648" width="137" height="57" text="ยกเลิก" measuredWidth="137" measuredHeight="57" link="admin_conferim_cancel_add.screen">
     <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="70" x="388" y="356" width="81" text="ชื่อ :" measuredWidth="81" measuredHeight="25">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="71" x="420" y="352" width="143" measuredWidth="143" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="72" x="580" y="352" width="143" measuredWidth="143" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="73" x="472" y="448" width="201" measuredWidth="201" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="74" x="388" y="452" width="81" text="รหัสผ่าน :" measuredWidth="81" measuredHeight="25">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="75" x="366" y="560" width="113" text="สิทธิ์การเข้าถึง :" measuredWidth="113" measuredHeight="25">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="76" x="478" y="556" width="189" measuredWidth="189" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="77" x="388" y="508" width="81" text="หน่วยงาน :" measuredWidth="81" measuredHeight="25">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="78" x="472" y="504" width="201" measuredWidth="201" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="79" x="472" y="400" width="201" measuredWidth="201" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="80" x="404" y="404" width="81" text="email :" measuredWidth="81" measuredHeight="25">
+    <font size="18px"/>
   </widgets>
   <hRuler/>
   <vRuler/>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="10" y="10" width="1057" height="793" text="Browser&#xA;http://..." locked="true" measuredWidth="1057" measuredHeight="793" verticalScrollbar="true">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="10" y="62" width="1042" height="61" locked="true" measuredWidth="1042" measuredHeight="61"/>
+  <widgets xsi:type="model:Image" id="3" x="41" y="68" width="67" height="49" locked="true" measuredWidth="67" measuredHeight="49"/>
+  <widgets xsi:type="model:Text" id="6" x="41" y="152" width="192" height="33" text="อุปกรณ์ประกอบ " measuredWidth="192" measuredHeight="33" textAlignment="Center">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="7" x="49" y="192" width="273" height="577" text="- xxxxxx&#xD;&#xA;- xxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxxxxxx&#xD;&#xA;- xxxxxx&#xD;&#xA;- xxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxxxxxx&#xD;&#xA;- xxxxxx&#xD;&#xA;- xxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxxxxxx&#xD;&#xA;- xxxxxx&#xD;&#xA;- xxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxxxxxx&#xD;&#xA;- xxxxxx&#xD;&#xA;- xxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxxxxxx&#xD;&#xA;" measuredWidth="273" measuredHeight="577">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="16" x="880" y="75" width="81" height="35" text="user" measuredWidth="81" measuredHeight="35" textAlignment="Center" link="admin.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="17" x="824" y="75" width="57" height="35" measuredWidth="57" measuredHeight="35" icon="user (custom)"/>
+  <widgets xsi:type="model:Link" id="18" x="984" y="79" text="logout" measuredWidth="47" measuredHeight="28" link="login.screen">
+    <font size="15px" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="22" x="864" y="736" width="153" height="49" text="กลับ" measuredWidth="153" measuredHeight="49" link="data.screen">
+    <font size="18px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

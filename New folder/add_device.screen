@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="10" y="10" width="1057" height="793" text="Browser&#xA;http://..." locked="true" measuredWidth="1057" measuredHeight="793" verticalScrollbar="true">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="10" y="62" width="1042" height="61" locked="true" measuredWidth="1042" measuredHeight="61"/>
+  <widgets xsi:type="model:Image" id="3" x="41" y="68" width="67" height="49" locked="true" measuredWidth="67" measuredHeight="49"/>
+  <widgets xsi:type="model:Text" id="4" x="62" y="160" width="163" height="33" text="อุปกรณ์ประกอบ" measuredWidth="163" measuredHeight="33" textAlignment="Center">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="5" x="884" y="81" width="81" height="35" text="user" measuredWidth="81" measuredHeight="35" textAlignment="Center" link="admin.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="6" x="821" y="81" width="57" height="35" locked="true" measuredWidth="57" measuredHeight="35" icon="user (custom)"/>
+  <widgets xsi:type="model:Link" id="7" x="986" y="79" text="logout" measuredWidth="47" measuredHeight="28" link="login.screen">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="8" x="62" y="206" width="953" height="465" measuredWidth="953" measuredHeight="465" value="25" verticalScrollbar="true"/>
+  <widgets xsi:type="model:Button" id="9" x="904" y="712" width="111" height="49" text="ยกเลิก" measuredWidth="111" measuredHeight="49" link="conferim_cancel_add_device.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="10" x="767" y="712" width="111" height="49" text="เพิ่ม" measuredWidth="111" measuredHeight="49" link="conferin_add_device.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="11" x="128" y="238" width="201" measuredWidth="201" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="12" x="106" y="229" width="8" height="32" text="-" measuredWidth="8" measuredHeight="32">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="13" x="128" y="280" width="201" measuredWidth="201" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="14" x="106" y="271" width="8" height="32" text="-" measuredWidth="8" measuredHeight="32">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="15" x="128" y="328" width="201" measuredWidth="201" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="16" x="106" y="319" width="8" height="32" text="-" measuredWidth="8" measuredHeight="32">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="17" x="128" y="384" width="201" measuredWidth="201" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="18" x="106" y="375" width="8" height="32" text="-" measuredWidth="8" measuredHeight="32">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="19" x="128" y="432" width="201" measuredWidth="201" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="20" x="106" y="423" width="8" height="32" text="-" measuredWidth="8" measuredHeight="32">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="21" x="128" y="488" width="201" measuredWidth="201" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="22" x="106" y="479" width="8" height="32" text="-" measuredWidth="8" measuredHeight="32">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="23" x="128" y="536" width="201" measuredWidth="201" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="24" x="106" y="527" width="8" height="32" text="-" measuredWidth="8" measuredHeight="32">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="25" x="128" y="584" width="201" measuredWidth="201" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="26" x="106" y="575" width="8" height="32" text="-" measuredWidth="8" measuredHeight="32">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="27" x="128" y="634" width="201" measuredWidth="201" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="28" x="106" y="625" width="8" height="32" text="-" measuredWidth="8" measuredHeight="32">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

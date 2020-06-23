@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="10" y="10" width="1057" height="793" text="Browser&#xA;http://..." locked="true" measuredWidth="1057" measuredHeight="793" verticalScrollbar="true">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="10" y="62" width="1042" height="61" locked="true" measuredWidth="1042" measuredHeight="61"/>
+  <widgets xsi:type="model:Image" id="3" x="41" y="68" width="67" height="49" locked="true" measuredWidth="67" measuredHeight="49"/>
+  <widgets xsi:type="model:Alert" id="4" x="152" y="224" width="769" height="409" text="ยืนยันการยกเลิกการแก้ไขข้อมูล&#xA;ต้องการยกเลิกการแก้ไขข้อมูลหรือไม่&#xA;ต้องการ,ไม่ต้องการ" measuredWidth="769" measuredHeight="409" icon="warning (xxl)">
+    <items link="admin.screen" x="519" y="354" width="110" height="40" text="ต้องการ"/>
+    <items link="admin_edit.screen" x="644" y="354" width="110" height="40" text="ไม่ต้องการ"/>
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="5" x="880" y="75" width="81" height="35" text="user" measuredWidth="81" measuredHeight="35" textAlignment="Center" link="admin.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="6" x="824" y="75" width="57" height="35" measuredWidth="57" measuredHeight="35" icon="user (custom)"/>
+  <widgets xsi:type="model:Link" id="7" x="984" y="79" text="logout" measuredWidth="47" measuredHeight="28" link="login.screen">
+    <font size="15px" underline="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

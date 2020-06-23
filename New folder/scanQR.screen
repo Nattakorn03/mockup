@@ -15,10 +15,7 @@
   <widgets xsi:type="model:VLine" id="12" x="568" y="152" height="41" measuredWidth="6" measuredHeight="41"/>
   <widgets xsi:type="model:VLine" id="13" x="224" y="152" height="41" measuredWidth="6" measuredHeight="41"/>
   <widgets xsi:type="model:VLine" id="14" x="224" y="453" height="41" measuredWidth="6" measuredHeight="41"/>
-  <widgets xsi:type="model:Button" id="15" x="208" y="544" width="105" height="49" text="กลับ" measuredWidth="105" measuredHeight="49" link="home.screen">
-    <font size="18px"/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="16" x="472" y="544" width="121" height="49" text="สร้าง QR code" measuredWidth="121" measuredHeight="49" link="qrcode.screen">
+  <widgets xsi:type="model:Button" id="15" x="348" y="544" width="105" height="49" text="กลับ" measuredWidth="105" measuredHeight="49" link="home.screen">
     <font size="18px"/>
   </widgets>
   <hRuler/>

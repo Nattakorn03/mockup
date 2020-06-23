@@ -5,35 +5,35 @@
   </widgets>
   <widgets xsi:type="model:Panel" id="2" x="10" y="62" width="1042" height="61" locked="true" measuredWidth="1042" measuredHeight="61"/>
   <widgets xsi:type="model:Image" id="3" x="41" y="68" width="67" height="49" locked="true" measuredWidth="67" measuredHeight="49"/>
-  <widgets xsi:type="model:Text" id="8" x="416" y="208" width="225" height="161" text="รหัส : cs00000&#xD;&#xA;ประเภท : xxxxxxx&#xD;&#xA;ชื่อ : xxxxxx&#xD;&#xA;ปีงบประมาณ : xxxx&#xD;&#xA;สถานะ : xxxxx&#xD;&#xA;สถานที่เก็บ : xxxxxx&#xD;&#xA;" measuredWidth="225" measuredHeight="161">
+  <widgets xsi:type="model:Text" id="8" x="408" y="160" width="225" height="217" text="รหัส : cs00000&#xD;&#xA;serial number : xxxxxxx &#xD;&#xA;ประเภท : xxxxxxx&#xD;&#xA;ชื่อ : xxxxxx&#xD;&#xA;ปีงบประมาณ : xxxx&#xD;&#xA;สถานที่เก็บ : xxxxxx&#xD;&#xA;สถานะ : xxxxx&#xD;&#xA;หมายเหตุ : xxxxxxxx" measuredWidth="225" measuredHeight="217">
     <font size="18px"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="9" x="680" y="212" width="257" height="153" text="ราคา : xxxxx&#xD;&#xA;ว/ด/ป ที่รับ : xx/xx/xxxx&#xD;&#xA;ว/ด/ป ที่ตรวจรับ : xx/xx/xxxx&#xD;&#xA;บริษัทที่ซื้อ : xxxxxx&#xD;&#xA;วันหมดประกัน : xx/xx/xxxx&#xD;&#xA;ผู้รับผิดชอบ : xxxxxxxxxxxxxxxx" measuredWidth="257" measuredHeight="153">
+  <widgets xsi:type="model:Text" id="9" x="680" y="172" width="257" height="153" text="ราคา : xxxxx&#xD;&#xA;ว/ด/ป ที่รับ : xx/xx/xxxx&#xD;&#xA;ว/ด/ป ที่ตรวจรับ : xx/xx/xxxx&#xD;&#xA;บริษัทที่ซื้อ : xxxxxx&#xD;&#xA;วันหมดประกัน : xx/xx/xxxx&#xD;&#xA;ผู้รับผิดชอบ : xxxxxxxxxxxxxxxx" measuredWidth="257" measuredHeight="153">
     <font size="18px"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="10" x="48" y="430" width="192" height="33" text="อุปกรณประกอบ " measuredWidth="192" measuredHeight="33" textAlignment="Center">
+  <widgets xsi:type="model:Text" id="10" x="48" y="454" width="192" height="33" text="อุปกรณ์ประกอบ " measuredWidth="192" measuredHeight="33" textAlignment="Center">
     <font size="18px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="11" x="55" y="480" width="273" height="153" text="- xxxxxx&#xD;&#xA;- xxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxxxxxx" measuredWidth="273" measuredHeight="153">
+  <widgets xsi:type="model:Text" id="11" x="48" y="504" width="273" height="153" text="- xxxxxx&#xD;&#xA;- xxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxxxxxx" measuredWidth="273" measuredHeight="153">
     <font size="18px"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="12" x="399" y="430" width="192" height="33" text="specification" measuredWidth="192" measuredHeight="33" textAlignment="Center">
+  <widgets xsi:type="model:Text" id="12" x="240" y="454" width="192" height="33" text="specification" measuredWidth="192" measuredHeight="33" textAlignment="Center">
     <font size="18px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="13" x="423" y="480" width="273" height="153" text="- xxxxxx&#xD;&#xA;- xxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxxxxxx" measuredWidth="273" measuredHeight="153">
+  <widgets xsi:type="model:Text" id="13" x="264" y="504" width="273" height="153" text="- xxxxxx&#xD;&#xA;- xxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxxxxxx" measuredWidth="273" measuredHeight="153">
     <font size="18px"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="14" x="671" y="430" width="192" height="33" text="files" measuredWidth="192" measuredHeight="33" textAlignment="Center">
+  <widgets xsi:type="model:Text" id="14" x="448" y="454" width="192" height="33" text="files" measuredWidth="192" measuredHeight="33" textAlignment="Center">
     <font size="18px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="15" x="728" y="480" width="273" height="153" text="- xxxxxx.ptf&#xD;&#xA;- xxxxxxx.ptf&#xD;&#xA;" measuredWidth="273" measuredHeight="153">
+  <widgets xsi:type="model:Text" id="15" x="512" y="504" width="169" height="153" text="- xxxxxx.ptf&#xD;&#xA;- xxxxxxx.ptf&#xD;&#xA;" measuredWidth="169" measuredHeight="153">
     <font size="18px"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="18" x="893" y="728" width="139" height="41" text="กลับ" measuredWidth="139" measuredHeight="41" link="showdata.screen">
+  <widgets xsi:type="model:Button" id="18" x="893" y="728" width="139" height="41" text="กลับ" measuredWidth="139" measuredHeight="41" link="show_data_2.screen">
     <font size="18px"/>
   </widgets>
-  <widgets xsi:type="model:Image" id="22" x="64" y="188" width="297" height="209" measuredWidth="297" measuredHeight="209"/>
-  <widgets xsi:type="model:Text" id="23" x="64" y="148" width="217" height="41" text="ข้อมูล" measuredWidth="217" measuredHeight="41">
+  <widgets xsi:type="model:Image" id="22" x="64" y="176" width="297" height="209" measuredWidth="297" measuredHeight="209"/>
+  <widgets xsi:type="model:Text" id="23" y="136" width="217" height="41" text="ข้อมูล" measuredWidth="217" measuredHeight="41" textAlignment="Center">
     <font size="24px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Button" id="24" x="739" y="728" width="139" height="41" text="แก้ไข" measuredWidth="139" measuredHeight="41" link="edit.screen">
@@ -48,6 +48,21 @@
   <widgets xsi:type="model:Icon" id="27" x="824" y="75" width="57" height="35" measuredWidth="57" measuredHeight="35" icon="user (custom)"/>
   <widgets xsi:type="model:Link" id="28" x="984" y="79" text="logout" measuredWidth="47" measuredHeight="28" link="login.screen">
     <font size="15px" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="30" x="48" y="728" width="139" height="41" text="ดู QR code" measuredWidth="139" measuredHeight="41" link="QRcode.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="31" x="64" y="640" width="60" text="more" measuredWidth="60" measuredHeight="25" foreground="#00f" link="more_device.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="32" x="280" y="640" width="60" text="more" measuredWidth="60" measuredHeight="25" foreground="#00f" link="more_specification.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="33" x="728" y="454" width="192" height="33" text="หมายเหตุ" measuredWidth="192" measuredHeight="33" textAlignment="Center">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="36" x="784" y="504" width="225" height="105" text="xxxxxxxxxxxxxxxxxxx&#xD;&#xA;xxxxxxxxxxx&#xD;&#xA;xxxxxxxxxxxxxxx&#xD;&#xA;xxxxxx" measuredWidth="225" measuredHeight="105">
+    <font size="18px"/>
   </widgets>
   <hRuler/>
   <vRuler/>

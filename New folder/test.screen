@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="47" x="10" y="10" width="1057" height="793" text="Browser&#xA;http://..." locked="true" measuredWidth="1057" measuredHeight="793" verticalScrollbar="true">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="48" x="10" y="62" width="1042" height="61" locked="true" measuredWidth="1042" measuredHeight="61"/>
+  <widgets xsi:type="model:Image" id="49" x="41" y="68" width="67" height="49" locked="true" measuredWidth="67" measuredHeight="49"/>
+  <widgets xsi:type="model:Text" id="50" x="473" y="128" text="ค้นหาครุภัณฑ์" measuredWidth="176" measuredHeight="38" textAlignment="Center">
+    <font size="28px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="51" x="24" y="165" text="Home,แสกนQRcode,รายงาน" measuredWidth="180" measuredHeight="23">
+    <font/>
+    <items link="home.screen" x="0" y="0" width="36" height="23" text="Home"/>
+    <items link="scanQR.screen" x="54" y="0" width="71" height="23" text="แสกนQRcode"/>
+    <items link="report.screen" x="143" y="0" width="36" height="23" text="รายงาน"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="52" x="24" y="198" width="1015" height="139" measuredWidth="1015" measuredHeight="139"/>
+  <widgets xsi:type="model:Text" id="53" x="216" y="210" width="65" text="รหัส" measuredWidth="65" measuredHeight="25">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="54" x="216" y="236" width="161" measuredWidth="161" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="55" x="536" y="210" width="65" text="ประเภท" measuredWidth="65" measuredHeight="25" textAlignment="Center">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="56" x="544" y="236" width="146" measuredWidth="146" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="57" x="697" y="212" width="65" text="ชื่อ" measuredWidth="65" measuredHeight="25">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="58" x="697" y="236" width="147" measuredWidth="147" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="59" x="48" y="292" width="161" measuredWidth="161" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="60" x="34" y="268" width="65" text="สถานะ" measuredWidth="65" measuredHeight="25" textAlignment="Center">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="61" x="877" y="225" width="140" height="85" text="ค้นหา" measuredWidth="140" measuredHeight="85">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="62" x="24" y="344" width="131" height="41" text="เพิ่มข้อมูล" measuredWidth="131" measuredHeight="41">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="63" x="877" y="344" width="162" height="41" text="export" measuredWidth="162" measuredHeight="41">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="64" x="875" y="143" width="165" height="45" text="กลับ" measuredWidth="165" measuredHeight="45" link="home.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="65" x="48" y="236" width="161" measuredWidth="161" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="66" x="48" y="210" width="113" text="ปีงบประมาณ" measuredWidth="113" measuredHeight="25">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="67" x="992" y="349" measuredWidth="32" measuredHeight="32" icon="export (large)"/>
+  <widgets xsi:type="model:Text" id="68" x="880" y="75" width="81" height="35" text="user" measuredWidth="81" measuredHeight="35" textAlignment="Center" link="admin.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="69" x="824" y="75" width="57" height="35" measuredWidth="57" measuredHeight="35" icon="user (custom)"/>
+  <widgets xsi:type="model:Link" id="70" x="984" y="79" text="logout" measuredWidth="47" measuredHeight="28" link="login.screen">
+    <font size="15px" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="71" x="216" y="268" width="65" text="บริษัท" measuredWidth="65" measuredHeight="25" textAlignment="Center">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="72" x="216" y="292" width="161" measuredWidth="161" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="73" x="384" y="236" width="153" measuredWidth="153" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="74" x="384" y="212" width="121" text="serial number" measuredWidth="121" measuredHeight="25">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Breadcrumbs" id="75" x="976" y="752" text="1,2,3" measuredWidth="64" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="7" height="23" text="1"/>
+    <items x="27" y="0" width="7" height="23" text="2"/>
+    <items x="54" y="0" width="7" height="23" text="3"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="76" x="23" y="392" width="1019" height="383" measuredWidth="1019" measuredHeight="383"/>
+  <widgets xsi:type="model:Table" id="77" x="23" y="392" width="1018" height="345" text="ปีงบประมาณ,รหัส,serial number,ประเภท,ชื่อ,สถานะ,บริษัท,ดู,แก้ไข,ลบ,ผู้แก้ไขล่าสุด&#xD;&#xA;xxxx,[xxxxxx],xxxxxxx,xxxxxxxx,xxxx,xxxxxx,xxxxxx,[{eye}],[{edit}],[{trash}],xxxxxxx&#xD;&#xA;xxxx,[xxxxxx],xxxxxxx,xxxxxxxx,xxxx,xxxxxx,xxxxxx,[{eye}],[{edit}],[{trash}],xxxxxxx&#xD;&#xA;xxxx,[xxxxxx],xxxxxxx,xxxxxxxx,xxxx,xxxxxx,xxxxxx,[{eye}],[{edit}],[{trash}],xxxxxxx&#xD;&#xA;xxxx,[xxxxxx],xxxxxxx,xxxxxxxx,xxxx,xxxxxx,xxxxxx,[{eye}],[{edit}],[{trash}],xxxxxxx&#xD;&#xA;xxxx,[xxxxxx],xxxxxxx,xxxxxxxx,xxxx,xxxxxx,xxxxxx,[{eye}],[{edit}],[{trash}],xxxxxxx&#xD;&#xA;xxxx,[xxxxxx],xxxxxxx,xxxxxxxx,xxxx,xxxxxx,xxxxxx,[{eye}],[{edit}],[{trash}],xxxxxxx&#xD;&#xA;xxxx,[xxxxxx],xxxxxxx,xxxxxxxx,xxxx,xxxxxx,xxxxxx,[{eye}],[{edit}],[{trash}],xxxxxxx&#xD;&#xA;xxxx,[xxxxxx],xxxxxxx,xxxxxxxx,xxxx,xxxxxx,xxxxxx,[{eye}],[{edit}],[{trash}],xxxxxxx&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" measuredWidth="1018" measuredHeight="345" verticalScrollbar="true" horizontalLines="true" textAlignment="Center" alternative="#eee" verticalLines="false">
+    <font size="20px"/>
+    <items x="146" y="43" width="54" height="28" text="xxxxxx"/>
+    <items x="713" y="45" width="24" height="24" text="{eye}"/>
+    <items x="768" y="45" width="24" height="24" text="{edit}"/>
+    <items x="822" y="45" width="24" height="24" text="{trash}"/>
+    <items x="146" y="81" width="54" height="28" text="xxxxxx"/>
+    <items x="713" y="83" width="24" height="24" text="{eye}"/>
+    <items x="768" y="83" width="24" height="24" text="{edit}"/>
+    <items x="822" y="83" width="24" height="24" text="{trash}"/>
+    <items x="146" y="119" width="54" height="28" text="xxxxxx"/>
+    <items x="713" y="121" width="24" height="24" text="{eye}"/>
+    <items x="768" y="121" width="24" height="24" text="{edit}"/>
+    <items x="822" y="121" width="24" height="24" text="{trash}"/>
+    <items x="146" y="157" width="54" height="28" text="xxxxxx"/>
+    <items x="713" y="159" width="24" height="24" text="{eye}"/>
+    <items x="768" y="159" width="24" height="24" text="{edit}"/>
+    <items x="822" y="159" width="24" height="24" text="{trash}"/>
+    <items x="146" y="195" width="54" height="28" text="xxxxxx"/>
+    <items x="713" y="197" width="24" height="24" text="{eye}"/>
+    <items x="768" y="197" width="24" height="24" text="{edit}"/>
+    <items x="822" y="197" width="24" height="24" text="{trash}"/>
+    <items x="146" y="233" width="54" height="28" text="xxxxxx"/>
+    <items x="713" y="235" width="24" height="24" text="{eye}"/>
+    <items x="768" y="235" width="24" height="24" text="{edit}"/>
+    <items x="822" y="235" width="24" height="24" text="{trash}"/>
+    <items x="146" y="271" width="54" height="28" text="xxxxxx"/>
+    <items x="713" y="273" width="24" height="24" text="{eye}"/>
+    <items x="768" y="273" width="24" height="24" text="{edit}"/>
+    <items x="822" y="273" width="24" height="24" text="{trash}"/>
+    <items x="146" y="309" width="54" height="28" text="xxxxxx"/>
+    <items x="713" y="311" width="24" height="24" text="{eye}"/>
+    <items x="768" y="311" width="24" height="24" text="{edit}"/>
+    <items x="822" y="311" width="24" height="24" text="{trash}"/>
+  </widgets>
+  <widgets xsi:type="model:Breadcrumbs" id="78" x="960" y="742" text="1,2,3" measuredWidth="64" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="7" height="23" text="1"/>
+    <items x="27" y="0" width="7" height="23" text="2"/>
+    <items x="54" y="0" width="7" height="23" text="3"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

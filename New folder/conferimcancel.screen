@@ -6,7 +6,7 @@
   <widgets xsi:type="model:Panel" id="3" x="10" y="62" width="1042" height="61" locked="true" measuredWidth="1042" measuredHeight="61"/>
   <widgets xsi:type="model:Image" id="4" x="41" y="68" width="67" height="49" locked="true" measuredWidth="67" measuredHeight="49"/>
   <widgets xsi:type="model:Alert" id="8" x="152" y="224" width="769" height="409" text="ยืนยันการยกเลิกเพิ่มข้อมูล&#xA;ต้องการยกเลิกการเพิ่มข้อมูลหรือไม่&#xA;ต้องการ,ยกเลิก" measuredWidth="769" measuredHeight="409" icon="warning (xxl)">
-    <items link="showdata.screen" x="563" y="354" width="88" height="40" text="ต้องการ"/>
+    <items link="show_data_2.screen" x="563" y="354" width="88" height="40" text="ต้องการ"/>
     <items link="adddata.screen" x="666" y="354" width="88" height="40" text="ยกเลิก"/>
     <font size="24px"/>
   </widgets>
