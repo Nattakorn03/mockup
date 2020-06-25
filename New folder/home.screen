@@ -21,10 +21,7 @@
   <widgets xsi:type="model:Button" id="30" x="552" y="328" width="225" height="145" text="เพิ่มข้อมูล" measuredWidth="225" measuredHeight="145" link="adddata.screen">
     <font size="28px"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="33" x="285" y="488" width="225" height="145" text="สแกน QR code" measuredWidth="225" measuredHeight="145" link="scanQR.screen">
-    <font size="28px"/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="34" x="552" y="488" width="225" height="145" text="รายงาน" measuredWidth="225" measuredHeight="145" link="report.screen">
+  <widgets xsi:type="model:Button" id="33" x="417" y="488" width="225" height="145" text="สแกน QR code" measuredWidth="225" measuredHeight="145" link="scanQR.screen">
     <font size="28px"/>
   </widgets>
   <hRuler/>

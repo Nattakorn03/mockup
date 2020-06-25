@@ -5,17 +5,11 @@
   </widgets>
   <widgets xsi:type="model:Panel" id="2" x="10" y="62" width="1042" height="61" locked="true" measuredWidth="1042" measuredHeight="61"/>
   <widgets xsi:type="model:Image" id="3" x="41" y="68" width="67" height="49" locked="true" measuredWidth="67" measuredHeight="49"/>
-  <widgets xsi:type="model:Text" id="4" x="473" y="128" text="ค้นหาครุภัณฑ์" measuredWidth="176" measuredHeight="38" textAlignment="Center">
+  <widgets xsi:type="model:Text" id="4" x="472" y="147" text="ค้นหาครุภัณฑ์" measuredWidth="176" measuredHeight="38" textAlignment="Center">
     <font size="28px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:LinkBar" id="5" x="24" y="165" text="Home,แสกนQRcode,รายงาน" measuredWidth="180" measuredHeight="23">
-    <font/>
-    <items link="home.screen" x="0" y="0" width="36" height="23" text="Home"/>
-    <items link="scanQR.screen" x="54" y="0" width="71" height="23" text="แสกนQRcode"/>
-    <items link="report.screen" x="143" y="0" width="36" height="23" text="รายงาน"/>
-  </widgets>
   <widgets xsi:type="model:Panel" id="6" x="24" y="198" width="1015" height="139" measuredWidth="1015" measuredHeight="139"/>
-  <widgets xsi:type="model:Text" id="7" x="216" y="210" width="65" text="รหัส" measuredWidth="65" measuredHeight="25">
+  <widgets xsi:type="model:Text" id="7" x="216" y="210" width="89" text="รหัสครภัณฑ์" measuredWidth="89" measuredHeight="25">
     <font size="18px"/>
   </widgets>
   <widgets xsi:type="model:TextField" id="8" x="216" y="236" width="161" measuredWidth="161" measuredHeight="33">
@@ -80,61 +74,58 @@
   <widgets xsi:type="model:Text" id="91" x="10" y="813" measuredWidth="100" measuredHeight="100">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Breadcrumbs" id="92" x="976" y="752" text="1,2,3" measuredWidth="64" measuredHeight="23">
-    <font/>
-    <items x="0" y="0" width="7" height="23" text="1"/>
-    <items x="27" y="0" width="7" height="23" text="2"/>
-    <items x="54" y="0" width="7" height="23" text="3"/>
-  </widgets>
-  <widgets xsi:type="model:Panel" id="93" x="23" y="392" width="1019" height="383" measuredWidth="1019" measuredHeight="383"/>
-  <widgets xsi:type="model:Table" id="94" x="24" y="392" width="1018" height="345" text="ปีงบประมาณ,รหัส,ประเภท,ชื่อ,สถานะ,ดู,แก้ไข,ลบ,ผู้แก้ไขล่าสุด&#xD;&#xA;xxxx,[xxxxxx],xxxxxxxx,xxxx,xxxxxx,[{eye}],[{edit}],[{trash}],[xxxxxxx]&#xD;&#xA;xxxx,[xxxxxx],xxxxxxxx,xxxx,xxxxxx,[{eye}],[{edit}],[{trash}],[xxxxxxx]&#xD;&#xA;xxxx,[xxxxxx],xxxxxxxx,xxxx,xxxxxx,[{eye}],[{edit}],[{trash}],[xxxxxxx]&#xD;&#xA;xxxx,[xxxxxx],xxxxxxxx,xxxx,xxxxxx,[{eye}],[{edit}],[{trash}],[xxxxxxx]&#xD;&#xA;xxxx,[xxxxxx],xxxxxxxx,xxxx,xxxxxx,[{eye}],[{edit}],[{trash}],[xxxxxxx]&#xD;&#xA;xxxx,[xxxxxx],xxxxxxxx,xxxx,xxxxxx,[{eye}],[{edit}],[{trash}],[xxxxxxx]&#xD;&#xA;xxxx,[xxxxxx],xxxxxxxx,xxxx,xxxxxx,[{eye}],[{edit}],[{trash}],[xxxxxxx]&#xD;&#xA;xxxx,[xxxxxx],xxxxxxxx,xxxx,xxxxxx,[{eye}],[{edit}],[{trash}],[xxxxxxx]&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" measuredWidth="1018" measuredHeight="345" verticalScrollbar="true" horizontalLines="true" textAlignment="Center" alternative="#f3f3f3" verticalLines="false">
+  <widgets xsi:type="model:Panel" id="93" x="21" y="392" width="1021" height="393" measuredWidth="1021" measuredHeight="393"/>
+  <widgets xsi:type="model:Table" id="94" x="24" y="392" width="1018" height="353" text=",ปีงบประมาณ,รหัสครุภัณฑ์,ประเภท,ชื่อ,สถานะ,ดู,แก้ไข,ลบ,ประวัติการแก้ไข&#xD;&#xA;[x],xxxx,[0000-0000-00-0000],xxxxxxxx,xxxx,xxxxxx,[{eye}],[{edit}],[{trash}],[xxxxxxx]&#xD;&#xA;[x],xxxx,[0000-0000-00-0000],xxxxxxxx,xxxx,xxxxxx,[{eye}],[{edit}],[{trash}],[xxxxxxx]&#xD;&#xA;[x],xxxx,[0000-0000-00-0000],xxxxxxxx,xxxx,xxxxxx,[{eye}],[{edit}],[{trash}],[xxxxxxx]&#xD;&#xA;[x],xxxx,[0000-0000-00-0000],xxxxxxxx,xxxx,xxxxxx,[{eye}],[{edit}],[{trash}],[xxxxxxx]&#xD;&#xA;[x],xxxx,[0000-0000-00-0000],xxxxxxxx,xxxx,xxxxxx,[{eye}],[{edit}],[{trash}],[xxxxxxx]&#xD;&#xA;[x],xxxx,[0000-0000-00-0000],xxxxxxxx,xxxx,xxxxxx,[{eye}],[{edit}],[{trash}],[xxxxxxx]&#xD;&#xA;[],xxxx,[0000-0000-00-0000],xxxxxxxx,xxxx,xxxxxx,[{eye}],[{edit}],[{trash}],[xxxxxxx]&#xD;&#xA;[],xxxx,[0000-0000-00-0000],xxxxxxxx,xxxx,xxxxxx,[{eye}],[{edit}],[{trash}],[xxxxxxx]&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" measuredWidth="1018" measuredHeight="353" verticalScrollbar="true" horizontalLines="true" textAlignment="Center" alternative="#f3f3f3" verticalLines="false">
     <font size="20px"/>
-    <items link="data.screen" x="202" y="43" width="54" height="28" text="xxxxxx"/>
-    <items link="data.screen" x="624" y="45" width="24" height="24" text="{eye}"/>
-    <items link="edit.screen" x="696" y="45" width="24" height="24" text="{edit}"/>
-    <items link="conferimdelete.screen" x="768" y="45" width="24" height="24" text="{trash}"/>
-    <items x="873" y="43" width="63" height="28" text="xxxxxxx"/>
-    <items link="data.screen" x="202" y="81" width="54" height="28" text="xxxxxx"/>
-    <items link="data.screen" x="624" y="83" width="24" height="24" text="{eye}"/>
-    <items link="edit.screen" x="696" y="83" width="24" height="24" text="{edit}"/>
-    <items link="conferimdelete.screen" x="768" y="83" width="24" height="24" text="{trash}"/>
-    <items x="873" y="81" width="63" height="28" text="xxxxxxx"/>
-    <items link="data.screen" x="202" y="119" width="54" height="28" text="xxxxxx"/>
-    <items link="data.screen" x="624" y="121" width="24" height="24" text="{eye}"/>
-    <items link="edit.screen" x="696" y="121" width="24" height="24" text="{edit}"/>
-    <items link="conferimdelete.screen" x="768" y="121" width="24" height="24" text="{trash}"/>
-    <items x="873" y="119" width="63" height="28" text="xxxxxxx"/>
-    <items link="data.screen" x="202" y="157" width="54" height="28" text="xxxxxx"/>
-    <items link="data.screen" x="624" y="159" width="24" height="24" text="{eye}"/>
-    <items link="edit.screen" x="696" y="159" width="24" height="24" text="{edit}"/>
-    <items link="conferimdelete.screen" x="768" y="159" width="24" height="24" text="{trash}"/>
-    <items x="873" y="157" width="63" height="28" text="xxxxxxx"/>
-    <items link="data.screen" x="202" y="195" width="54" height="28" text="xxxxxx"/>
-    <items link="data.screen" x="624" y="197" width="24" height="24" text="{eye}"/>
-    <items link="edit.screen" x="696" y="197" width="24" height="24" text="{edit}"/>
-    <items link="conferimdelete.screen" x="768" y="197" width="24" height="24" text="{trash}"/>
-    <items x="873" y="195" width="63" height="28" text="xxxxxxx"/>
-    <items link="data.screen" x="202" y="233" width="54" height="28" text="xxxxxx"/>
-    <items link="data.screen" x="624" y="235" width="24" height="24" text="{eye}"/>
-    <items link="edit.screen" x="696" y="235" width="24" height="24" text="{edit}"/>
-    <items link="conferimdelete.screen" x="768" y="235" width="24" height="24" text="{trash}"/>
-    <items x="873" y="233" width="63" height="28" text="xxxxxxx"/>
-    <items link="data.screen" x="202" y="271" width="54" height="28" text="xxxxxx"/>
-    <items link="data.screen" x="624" y="273" width="24" height="24" text="{eye}"/>
-    <items link="edit.screen" x="696" y="273" width="24" height="24" text="{edit}"/>
-    <items link="conferimdelete.screen" x="768" y="273" width="24" height="24" text="{trash}"/>
-    <items x="873" y="271" width="63" height="28" text="xxxxxxx"/>
-    <items link="data.screen" x="202" y="309" width="54" height="28" text="xxxxxx"/>
-    <items link="data.screen" x="624" y="311" width="24" height="24" text="{eye}"/>
-    <items link="edit.screen" x="696" y="311" width="24" height="24" text="{edit}"/>
-    <items link="conferimdelete.screen" x="768" y="311" width="24" height="24" text="{trash}"/>
-    <items x="873" y="309" width="63" height="28" text="xxxxxxx"/>
+    <items link="data.screen" x="211" y="43" width="178" height="28" text="0000-0000-00-0000"/>
+    <items link="data.screen" x="680" y="45" width="24" height="24" text="{eye}"/>
+    <items link="edit.screen" x="735" y="45" width="24" height="24" text="{edit}"/>
+    <items link="conferimdelete.screen" x="790" y="45" width="24" height="24" text="{trash}"/>
+    <items link="log.text.screen" x="881" y="43" width="63" height="28" text="xxxxxxx"/>
+    <items link="data.screen" x="211" y="81" width="178" height="28" text="0000-0000-00-0000"/>
+    <items link="data.screen" x="680" y="83" width="24" height="24" text="{eye}"/>
+    <items link="edit.screen" x="735" y="83" width="24" height="24" text="{edit}"/>
+    <items link="conferimdelete.screen" x="790" y="83" width="24" height="24" text="{trash}"/>
+    <items link="log.text.screen" x="881" y="81" width="63" height="28" text="xxxxxxx"/>
+    <items link="data.screen" x="211" y="119" width="178" height="28" text="0000-0000-00-0000"/>
+    <items link="data.screen" x="680" y="121" width="24" height="24" text="{eye}"/>
+    <items link="edit.screen" x="735" y="121" width="24" height="24" text="{edit}"/>
+    <items link="conferimdelete.screen" x="790" y="121" width="24" height="24" text="{trash}"/>
+    <items link="log.text.screen" x="881" y="119" width="63" height="28" text="xxxxxxx"/>
+    <items link="data.screen" x="211" y="157" width="178" height="28" text="0000-0000-00-0000"/>
+    <items link="data.screen" x="680" y="159" width="24" height="24" text="{eye}"/>
+    <items link="edit.screen" x="735" y="159" width="24" height="24" text="{edit}"/>
+    <items link="conferimdelete.screen" x="790" y="159" width="24" height="24" text="{trash}"/>
+    <items link="log.text.screen" x="881" y="157" width="63" height="28" text="xxxxxxx"/>
+    <items link="data.screen" x="211" y="195" width="178" height="28" text="0000-0000-00-0000"/>
+    <items link="data.screen" x="680" y="197" width="24" height="24" text="{eye}"/>
+    <items link="edit.screen" x="735" y="197" width="24" height="24" text="{edit}"/>
+    <items link="conferimdelete.screen" x="790" y="197" width="24" height="24" text="{trash}"/>
+    <items link="log.text.screen" x="881" y="195" width="63" height="28" text="xxxxxxx"/>
+    <items link="data.screen" x="211" y="233" width="178" height="28" text="0000-0000-00-0000"/>
+    <items link="data.screen" x="680" y="235" width="24" height="24" text="{eye}"/>
+    <items link="edit.screen" x="735" y="235" width="24" height="24" text="{edit}"/>
+    <items link="conferimdelete.screen" x="790" y="235" width="24" height="24" text="{trash}"/>
+    <items link="log.text.screen" x="881" y="233" width="63" height="28" text="xxxxxxx"/>
+    <items link="data.screen" x="211" y="271" width="178" height="28" text="0000-0000-00-0000"/>
+    <items link="data.screen" x="680" y="273" width="24" height="24" text="{eye}"/>
+    <items link="edit.screen" x="735" y="273" width="24" height="24" text="{edit}"/>
+    <items link="conferimdelete.screen" x="790" y="273" width="24" height="24" text="{trash}"/>
+    <items link="log.text.screen" x="881" y="271" width="63" height="28" text="xxxxxxx"/>
+    <items link="data.screen" x="211" y="309" width="178" height="28" text="0000-0000-00-0000"/>
+    <items link="data.screen" x="680" y="311" width="24" height="24" text="{eye}"/>
+    <items link="edit.screen" x="735" y="311" width="24" height="24" text="{edit}"/>
+    <items link="conferimdelete.screen" x="790" y="311" width="24" height="24" text="{trash}"/>
+    <items link="log.text.screen" x="881" y="309" width="63" height="28" text="xxxxxxx"/>
   </widgets>
-  <widgets xsi:type="model:Breadcrumbs" id="96" x="960" y="742" text="1,2,3" measuredWidth="64" measuredHeight="23">
+  <widgets xsi:type="model:Breadcrumbs" id="96" x="960" y="754" text="1,2,3" measuredWidth="64" measuredHeight="23">
     <font/>
     <items x="0" y="0" width="7" height="23" text="1"/>
     <items x="27" y="0" width="7" height="23" text="2"/>
     <items x="54" y="0" width="7" height="23" text="3"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="99" x="168" y="344" width="137" height="41" text="ดู QR" measuredWidth="137" measuredHeight="41" link="qr_code.screen">
+    <font size="18px"/>
   </widgets>
   <hRuler/>
   <vRuler/>

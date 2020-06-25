@@ -12,11 +12,23 @@
   <widgets xsi:type="model:Link" id="24" x="984" y="79" text="logout" measuredWidth="47" measuredHeight="28" link="login.screen">
     <font size="15px" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Table" id="33" x="20" y="160" width="1022" height="601" text="xx/xx/xxxx,update,edit,user,etc&#xD;&#xA;xx/xx/xxxx,update,edit,user,-&#xD;&#xA;xx/xx/xxxx,delete,data,user,delete_data&#xD;&#xA;xx/xx/xxxx,update,edit,user,-&#xD;&#xA;xx/xx/xxxx,delete,data,user,-&#xD;&#xA;xx/xx/xxxx,update,edit,user,-&#xD;&#xA;xx/xx/xxxx,delete,data,user,delete_data&#xD;&#xA;xx/xx/xxxx,update,edit,user,-&#xD;&#xA;xx/xx/xxxx,delete,data,user,delete_data&#xD;&#xA;xx/xx/xxxx,update,edit,user,-&#xD;&#xA;xx/xx/xxxx,delete,data,user,delete_data&#xD;&#xA;xx/xx/xxxx,update,edit,user,-&#xD;&#xA;xx/xx/xxxx,delete,data,user,delete_data&#xD;&#xA;" measuredWidth="1022" measuredHeight="601" textAlignment="Center" alternative="#eee">
+  <widgets xsi:type="model:Table" id="33" x="20" y="208" width="1022" height="537" text="ว/ด/ป,สถานะ,user,data&#xD;&#xA;25/04/2019,create data,user,จอมอนิเตอร์&#xD;&#xA;25/04/2019,update status ,user,ปกติ&#xD;&#xA;25/04/2019,upload files ,user,device.ptf&#xD;&#xA;25/04/2019,upload files ,user,specification.ptf&#xD;&#xA;12/03/2020,update status ,user,ซ่อม&#xD;&#xA;18/03/2020,update status ,user,ปกติ&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" measuredWidth="1022" measuredHeight="537" value="9" verticalScrollbar="true" rowHeight="60" horizontalLines="true" textAlignment="Center" alternative="#eee" verticalLines="false">
     <font size="18px"/>
   </widgets>
   <widgets xsi:type="model:Text" id="34" x="10" y="813" measuredWidth="100" measuredHeight="100">
     <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="35" x="32" y="136" width="153" height="41" text="ประวัติการแก้ไข" measuredWidth="153" measuredHeight="41">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="36" x="936" y="144" width="106" height="41" text="กลับ" measuredWidth="106" measuredHeight="41" link="show_data_2.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Breadcrumbs" id="39" x="976" y="760" text="1,2,3" measuredWidth="64" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="7" height="23" text="1"/>
+    <items x="27" y="0" width="7" height="23" text="2"/>
+    <items x="54" y="0" width="7" height="23" text="3"/>
   </widgets>
   <hRuler/>
   <vRuler/>

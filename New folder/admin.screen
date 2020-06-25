@@ -8,7 +8,7 @@
   <widgets xsi:type="model:Text" id="20" x="41" y="156" width="81" height="33" text="Admin" measuredWidth="81" measuredHeight="33" textAlignment="Center">
     <font size="24px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Table" id="21" x="35" y="208" width="991" height="577" text="ลำดับ,ชื่อ,email,รหัสผ่าน,สิทธิ์การเข้าถึง,แก้ไข,ลบ&#xD;&#xA;1,xxxxxx,xxxxx@gmail.com,xxxxxxx,admin,[แก้ไข],[ลบ]&#xD;&#xA;2,xxxxxx,xxxxx@gmail.com,xxxxxxx,admin,[แก้ไข],[ลบ]&#xD;&#xA;3,xxxxxx,xxxxx@gmail.com,xxxxxxx,admin,[แก้ไข],[ลบ]&#xD;&#xA;4,xxxxxx,xxxxx@gmail.com,xxxxxxx,admin,[แก้ไข],[ลบ]&#xD;&#xA;5,xxxxxx,xxxxx@gmail.com,xxxxxxx,admin,[แก้ไข],[ลบ]&#xD;&#xA;6,xxxxxx,xxxxx@gmail.com,xxxxxxx,admin,[แก้ไข],[ลบ]&#xD;&#xA;7,xxxxxx,xxxxx@gmail.com,xxxxxxx,admin,[แก้ไข],[ลบ]&#xD;&#xA;8,xxxxxx,xxxxx@gmail.com,xxxxxxx,admin,[แก้ไข],[ลบ]&#xD;&#xA;9,xxxxxx,xxxxx@gmail.com,xxxxxxx,admin,[แก้ไข],[ลบ]" measuredWidth="991" measuredHeight="577" rowHeight="57" horizontalLines="true" textAlignment="Center" alternative="#eee" verticalLines="false">
+  <widgets xsi:type="model:Table" id="21" x="35" y="208" width="991" height="577" text="ลำดับ,ชื่อ,email,รหัสผ่าน,สิทธิ์การเข้าถึง,แก้ไข,ลบ&#xD;&#xA;1,xxxxxx,xxxxx@gmail.com,xxxxxxx,admin,[แก้ไข],[ลบ]&#xD;&#xA;2,xxxxxx,xxxxx@gmail.com,xxxxxxx,user,[แก้ไข],[ลบ]&#xD;&#xA;3,xxxxxx,xxxxx@gmail.com,xxxxxxx,user,[แก้ไข],[ลบ]&#xD;&#xA;4,xxxxxx,xxxxx@gmail.com,xxxxxxx,user,[แก้ไข],[ลบ]&#xD;&#xA;5,xxxxxx,xxxxx@gmail.com,xxxxxxx,user,[แก้ไข],[ลบ]&#xD;&#xA;6,xxxxxx,xxxxx@gmail.com,xxxxxxx,user,[แก้ไข],[ลบ]&#xD;&#xA;7,xxxxxx,xxxxx@gmail.com,xxxxxxx,user,[แก้ไข],[ลบ]&#xD;&#xA;8,xxxxxx,xxxxx@gmail.com,xxxxxxx,user,[แก้ไข],[ลบ]&#xD;&#xA;9,xxxxxx,xxxxx@gmail.com,xxxxxxx,user,[แก้ไข],[ลบ]" measuredWidth="991" measuredHeight="577" rowHeight="57" horizontalLines="true" textAlignment="Center" alternative="#eee" verticalLines="false">
     <font size="20px" bold="false"/>
     <items link="admin_edit.screen" x="863" y="71" width="41" height="28" text="แก้ไข"/>
     <items link="delete_account.screen" x="949" y="71" width="22" height="28" text="ลบ"/>
@@ -32,12 +32,12 @@
   <widgets xsi:type="model:Button" id="22" x="904" y="152" width="121" height="41" text="กลับ" measuredWidth="121" measuredHeight="41" link="home.screen">
     <font size="18px"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="23" x="874" y="81" width="81" height="35" text="user" measuredWidth="81" measuredHeight="35" textAlignment="Center">
+  <widgets xsi:type="model:Text" id="23" x="874" y="75" width="81" height="35" text="user" measuredWidth="81" measuredHeight="35" textAlignment="Center">
     <font size="18px"/>
   </widgets>
-  <widgets xsi:type="model:Icon" id="24" x="821" y="81" width="57" height="35" locked="true" measuredWidth="57" measuredHeight="35" icon="user (custom)"/>
-  <widgets xsi:type="model:Link" id="25" x="976" y="87" text="logout" locked="true" measuredWidth="38" measuredHeight="23" link="login.screen">
-    <font/>
+  <widgets xsi:type="model:Icon" id="24" x="818" y="75" width="57" height="35" measuredWidth="57" measuredHeight="35" icon="user (custom)"/>
+  <widgets xsi:type="model:Link" id="25" x="976" y="81" text="logout" measuredWidth="47" measuredHeight="28" link="login.screen">
+    <font size="15px"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="26" x="856" y="157" measuredWidth="32" measuredHeight="32" icon="add (large)" link="addaccount.screen"/>
   <hRuler/>

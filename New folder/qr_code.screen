@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="10" y="10" width="1057" height="793" text="Browser&#xA;http://..." locked="true" measuredWidth="1057" measuredHeight="793" verticalScrollbar="true">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="10" y="62" width="1042" height="61" locked="true" measuredWidth="1042" measuredHeight="61"/>
+  <widgets xsi:type="model:Image" id="3" x="41" y="68" width="67" height="49" locked="true" measuredWidth="67" measuredHeight="49"/>
+  <widgets xsi:type="model:Text" id="22" x="880" y="75" width="81" height="35" text="user" measuredWidth="81" measuredHeight="35" textAlignment="Center" link="admin.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="23" x="824" y="75" width="57" height="35" measuredWidth="57" measuredHeight="35" icon="user (custom)"/>
+  <widgets xsi:type="model:Link" id="24" x="984" y="79" text="logout" measuredWidth="47" measuredHeight="28" link="login.screen">
+    <font size="15px" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="37" x="72" y="184" width="913" height="593" measuredWidth="913" measuredHeight="593" verticalScrollbar="true"/>
+  <widgets xsi:type="model:Image" id="38" x="136" y="200" width="264" height="216" measuredWidth="264" measuredHeight="216" src="assets/4-1(1).png"/>
+  <widgets xsi:type="model:Text" id="39" x="158" y="415" width="235" height="45" text="รหัสครุภัณฑ์ : xxxxxxxxxxxxx&#xD;&#xA;ชื่อ : xxxxxxxx" measuredWidth="235" measuredHeight="45">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="40" x="414" y="206" width="264" height="216" measuredWidth="264" measuredHeight="216" src="assets/4-1(1).png"/>
+  <widgets xsi:type="model:Image" id="42" x="672" y="206" width="264" height="216" measuredWidth="264" measuredHeight="216" src="assets/4-1(1).png"/>
+  <widgets xsi:type="model:Image" id="44" x="136" y="490" width="264" height="216" measuredWidth="264" measuredHeight="216" src="assets/4-1(1).png"/>
+  <widgets xsi:type="model:Image" id="46" x="414" y="490" width="264" height="216" measuredWidth="264" measuredHeight="216" src="assets/4-1(1).png"/>
+  <widgets xsi:type="model:Image" id="48" x="680" y="498" width="264" height="216" measuredWidth="264" measuredHeight="216" src="assets/4-1(1).png"/>
+  <widgets xsi:type="model:Text" id="50" x="72" y="144" text="QR code" measuredWidth="90" measuredHeight="31">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="52" x="896" y="136" width="89" height="39" text="กลับ" measuredWidth="89" measuredHeight="39" link="show_data_2.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="53" x="428" y="415" width="235" height="45" text="รหัสครุภัณฑ์ : xxxxxxxxxxxxx&#xD;&#xA;ชื่อ : xxxxxxxx" measuredWidth="235" measuredHeight="45">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="54" x="686" y="415" width="235" height="45" text="รหัสครุภัณฑ์ : xxxxxxxxxxxxx&#xD;&#xA;ชื่อ : xxxxxxxx" measuredWidth="235" measuredHeight="45">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="55" x="150" y="705" width="235" height="45" text="รหัสครุภัณฑ์ : xxxxxxxxxxxxx&#xD;&#xA;ชื่อ : xxxxxxxx" measuredWidth="235" measuredHeight="45">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="56" x="428" y="705" width="235" height="45" text="รหัสครุภัณฑ์ : xxxxxxxxxxxxx&#xD;&#xA;ชื่อ : xxxxxxxx" measuredWidth="235" measuredHeight="45">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="57" x="694" y="705" width="235" height="45" text="รหัสครุภัณฑ์ : xxxxxxxxxxxxx&#xD;&#xA;ชื่อ : xxxxxxxx" measuredWidth="235" measuredHeight="45">
+    <font size="18px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

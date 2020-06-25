@@ -1,35 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Image" id="82" x="277" y="276" measuredWidth="490" measuredHeight="490" src="assets/4-1(1).png"/>
-  <widgets xsi:type="model:Master" id="84" x="12" y="10" width="1067" measuredWidth="1067" measuredHeight="793" dimmed="true">
+  <widgets xsi:type="model:Master" id="98" x="8" y="8" measuredWidth="1057" measuredHeight="793" dimmed="true">
     <screen xsi:type="model:Screen" href="data.screen#/"/>
-    <overrides>
-      <widgets ref="8" x="428" y="202" width="224"/>
-      <widgets ref="9" x="692" y="206" width="256"/>
-      <widgets ref="10" x="53" y="440" width="191"/>
-      <widgets ref="11" x="60" y="490" width="272"/>
-      <widgets ref="12" x="372" y="440" width="191"/>
-      <widgets ref="13" x="396" y="490" width="272"/>
-      <widgets ref="14" x="659" y="440" width="191"/>
-      <widgets ref="15" x="717" y="490" width="272"/>
-      <widgets ref="18" x="905" y="722" width="138"/>
-      <widgets ref="22" x="76" y="182" width="296"/>
-      <widgets ref="23" x="13" y="130" width="215"/>
-      <widgets ref="24" x="751" y="722" width="138"/>
-      <widgets ref="25" x="602" y="722" width="138"/>
-      <widgets ref="26" x="892" y="69" width="80"/>
-      <widgets ref="27" x="836" y="69" width="56"/>
-      <widgets ref="28" x="996" y="73"/>
-      <widgets ref="30" x="60" y="722" width="138"/>
-      <widgets ref="31" x="76" y="626" width="59"/>
-      <widgets ref="32" x="412" y="626" width="59"/>
-    </overrides>
   </widgets>
-  <widgets xsi:type="model:Browser" id="86" x="174" y="68" width="695" height="555" text="Browser&#xA;http://..." measuredWidth="695" measuredHeight="555">
+  <widgets xsi:type="model:Browser" id="100" x="167" y="161" width="695" height="571" text="Browser&#xA;http://..." measuredWidth="695" measuredHeight="571">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Image" id="87" x="296" y="130" width="451" height="431" measuredWidth="451" measuredHeight="431" src="assets/4-1(1).png"/>
-  <widgets xsi:type="model:Text" id="89" x="373" y="552" width="243" text="ชื่อ &#xD;&#xA;รหัส" measuredWidth="243" measuredHeight="50">
+  <widgets xsi:type="model:Image" id="101" x="289" y="225" width="451" height="443" measuredWidth="451" measuredHeight="443" src="assets/4-1(1).png"/>
+  <widgets xsi:type="model:Text" id="102" x="393" y="659" width="243" height="51" text="รหัสครุภัณฑ์: xxxxxxxxxxxxxxxx&#xD;&#xA;ชื่อ : xxxxxxxx" measuredWidth="243" measuredHeight="51">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="103" x="779" y="682" width="53" height="34" text="ok" measuredWidth="53" measuredHeight="34" link="data.screen">
     <font size="18px"/>
   </widgets>
   <hRuler/>

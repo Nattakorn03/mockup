@@ -13,7 +13,7 @@
     <font size="15px"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="7" x="272" y="192" width="550" height="75" measuredWidth="550" measuredHeight="75"/>
-  <widgets xsi:type="model:Text" id="8" x="460" y="205" width="185" height="49" text="เพิ่มผู้ใช้" measuredWidth="185" measuredHeight="49" textAlignment="Center">
+  <widgets xsi:type="model:Text" id="8" x="446" y="205" width="229" height="49" text="แก้ไขข้อมูลผู้ใช้" measuredWidth="229" measuredHeight="49" textAlignment="Center">
     <font size="28px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="9" x="272" y="256" width="550" height="321" locked="true" measuredWidth="550" measuredHeight="321"/>
@@ -50,7 +50,7 @@
   <widgets xsi:type="model:TextField" id="20" x="460" y="456" width="201" text="xxxxxxxx" measuredWidth="201" measuredHeight="33">
     <font size="18px"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="22" x="460" y="352" width="201" text="xxxxxxxx" measuredWidth="201" measuredHeight="33">
+  <widgets xsi:type="model:TextField" id="22" x="460" y="352" width="201" text="xxxxx@gmail.com" measuredWidth="201" measuredHeight="33">
     <font size="18px"/>
   </widgets>
   <widgets xsi:type="model:Text" id="23" x="392" y="356" width="81" text="email :" measuredWidth="81" measuredHeight="25">

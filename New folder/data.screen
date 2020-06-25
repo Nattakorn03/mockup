@@ -5,42 +5,8 @@
   </widgets>
   <widgets xsi:type="model:Panel" id="2" x="10" y="62" width="1042" height="61" locked="true" measuredWidth="1042" measuredHeight="61"/>
   <widgets xsi:type="model:Image" id="3" x="41" y="68" width="67" height="49" locked="true" measuredWidth="67" measuredHeight="49"/>
-  <widgets xsi:type="model:Text" id="8" x="408" y="160" width="225" height="217" text="รหัส : cs00000&#xD;&#xA;serial number : xxxxxxx &#xD;&#xA;ประเภท : xxxxxxx&#xD;&#xA;ชื่อ : xxxxxx&#xD;&#xA;ปีงบประมาณ : xxxx&#xD;&#xA;สถานที่เก็บ : xxxxxx&#xD;&#xA;สถานะ : xxxxx&#xD;&#xA;หมายเหตุ : xxxxxxxx" measuredWidth="225" measuredHeight="217">
-    <font size="18px"/>
-  </widgets>
-  <widgets xsi:type="model:Text" id="9" x="680" y="172" width="257" height="153" text="ราคา : xxxxx&#xD;&#xA;ว/ด/ป ที่รับ : xx/xx/xxxx&#xD;&#xA;ว/ด/ป ที่ตรวจรับ : xx/xx/xxxx&#xD;&#xA;บริษัทที่ซื้อ : xxxxxx&#xD;&#xA;วันหมดประกัน : xx/xx/xxxx&#xD;&#xA;ผู้รับผิดชอบ : xxxxxxxxxxxxxxxx" measuredWidth="257" measuredHeight="153">
-    <font size="18px"/>
-  </widgets>
-  <widgets xsi:type="model:Text" id="10" x="48" y="454" width="192" height="33" text="อุปกรณ์ประกอบ " measuredWidth="192" measuredHeight="33" textAlignment="Center">
-    <font size="18px" bold="true"/>
-  </widgets>
-  <widgets xsi:type="model:Text" id="11" x="48" y="504" width="273" height="153" text="- xxxxxx&#xD;&#xA;- xxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxxxxxx" measuredWidth="273" measuredHeight="153">
-    <font size="18px"/>
-  </widgets>
-  <widgets xsi:type="model:Text" id="12" x="240" y="454" width="192" height="33" text="specification" measuredWidth="192" measuredHeight="33" textAlignment="Center">
-    <font size="18px" bold="true"/>
-  </widgets>
-  <widgets xsi:type="model:Text" id="13" x="264" y="504" width="273" height="153" text="- xxxxxx&#xD;&#xA;- xxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxx&#xD;&#xA;- xxxxxxxxxxxxxxxxxxx" measuredWidth="273" measuredHeight="153">
-    <font size="18px"/>
-  </widgets>
-  <widgets xsi:type="model:Text" id="14" x="448" y="454" width="192" height="33" text="files" measuredWidth="192" measuredHeight="33" textAlignment="Center">
-    <font size="18px" bold="true"/>
-  </widgets>
-  <widgets xsi:type="model:Text" id="15" x="512" y="504" width="169" height="153" text="- xxxxxx.ptf&#xD;&#xA;- xxxxxxx.ptf&#xD;&#xA;" measuredWidth="169" measuredHeight="153">
-    <font size="18px"/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="18" x="893" y="728" width="139" height="41" text="กลับ" measuredWidth="139" measuredHeight="41" link="show_data_2.screen">
-    <font size="18px"/>
-  </widgets>
-  <widgets xsi:type="model:Image" id="22" x="64" y="176" width="297" height="209" measuredWidth="297" measuredHeight="209"/>
-  <widgets xsi:type="model:Text" id="23" y="136" width="217" height="41" text="ข้อมูล" measuredWidth="217" measuredHeight="41" textAlignment="Center">
+  <widgets xsi:type="model:Text" id="23" x="32" y="128" width="217" height="41" text="ข้อมูล" measuredWidth="217" measuredHeight="41">
     <font size="24px" bold="true"/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="24" x="739" y="728" width="139" height="41" text="แก้ไข" measuredWidth="139" measuredHeight="41" link="edit.screen">
-    <font size="18px"/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="25" x="590" y="728" width="139" height="41" text="เพิ่มเติม" measuredWidth="139" measuredHeight="41" link="adddata.screen">
-    <font size="18px"/>
   </widgets>
   <widgets xsi:type="model:Text" id="26" x="880" y="75" width="81" height="35" text="user" measuredWidth="81" measuredHeight="35" textAlignment="Center" link="admin.screen">
     <font size="18px"/>
@@ -49,21 +15,133 @@
   <widgets xsi:type="model:Link" id="28" x="984" y="79" text="logout" measuredWidth="47" measuredHeight="28" link="login.screen">
     <font size="15px" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="30" x="48" y="728" width="139" height="41" text="ดู QR code" measuredWidth="139" measuredHeight="41" link="QRcode.screen">
+  <widgets xsi:type="model:Panel" id="150" x="25" y="172" width="672" height="617" locked="true" measuredWidth="672" measuredHeight="617"/>
+  <widgets xsi:type="model:Text" id="151" x="40" y="421" width="113" height="33" text="รหัสครุภัณฑ์ : " measuredWidth="113" measuredHeight="33" textAlignment="Center">
+    <font size="18px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="153" x="88" y="485" width="65" height="33" text="ประเภท : " measuredWidth="65" measuredHeight="33" textAlignment="Center">
+    <font size="18px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="154" x="106" y="517" width="65" height="33" text="ชื่อ : " measuredWidth="65" measuredHeight="33" textAlignment="Center">
+    <font size="18px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="156" x="58" y="549" width="103" height="33" text="ปีงบประมาณ : " measuredWidth="103" measuredHeight="33" textAlignment="Center">
+    <font size="18px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="158" x="440" y="421" width="65" height="33" text="ราคา : " measuredWidth="65" measuredHeight="33" textAlignment="Center">
+    <font size="18px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="160" x="401" y="485" width="103" height="33" text="บริษัทที่ซื้อ : " measuredWidth="103" measuredHeight="33" textAlignment="Center">
+    <font size="18px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="162" x="385" y="517" width="113" height="33" text="วันหมดประกัน : " measuredWidth="113" measuredHeight="33" textAlignment="Center">
+    <font size="18px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="164" x="395" y="581" width="103" height="33" text="สถานที่เก็บ : " measuredWidth="103" measuredHeight="33" textAlignment="Center">
+    <font size="18px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="166" x="45" y="453" width="129" height="33" text="serial number : " measuredWidth="129" measuredHeight="33" textAlignment="Center">
+    <font size="18px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="168" x="369" y="453" width="129" height="33" text="ว/ด/ป ที่ตรวจรับ : " measuredWidth="129" measuredHeight="33" textAlignment="Center">
+    <font size="18px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="170" x="392" y="549" width="113" height="33" text="ผู้รับผิดชอบ : " measuredWidth="113" measuredHeight="33" textAlignment="Center">
+    <font size="18px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="173" x="69" y="581" width="103" height="33" text="โครงการ : " measuredWidth="103" measuredHeight="33" textAlignment="Center">
+    <font size="18px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="175" x="69" y="613" width="103" height="33" text="หมายเหตุ" measuredWidth="103" measuredHeight="33">
+    <font size="18px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="179" x="704" y="164" width="336" height="253" text="สถานะ" measuredWidth="336" measuredHeight="253">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="180" x="727" y="202" width="298" text="ปกติ" measuredWidth="298" measuredHeight="33">
     <font size="18px"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="31" x="64" y="640" width="60" text="more" measuredWidth="60" measuredHeight="25" foreground="#00f" link="more_device.screen">
+  <widgets xsi:type="model:Text" id="181" x="729" y="242" width="95" text="หมายเหตุ" measuredWidth="95" measuredHeight="25">
     <font size="18px"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="32" x="280" y="640" width="60" text="more" measuredWidth="60" measuredHeight="25" foreground="#00f" link="more_specification.screen">
+  <widgets xsi:type="model:TextArea" id="182" x="729" y="272" width="296" height="89" text="-" measuredWidth="296" measuredHeight="89">
     <font size="18px"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="33" x="728" y="454" width="192" height="33" text="หมายเหตุ" measuredWidth="192" measuredHeight="33" textAlignment="Center">
-    <font size="18px" bold="true"/>
+  <widgets xsi:type="model:Button" id="183" x="951" y="366" width="74" height="41" text="บันทึก" measuredWidth="74" measuredHeight="41">
+    <font size="20px"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="36" x="784" y="504" width="225" height="105" text="xxxxxxxxxxxxxxxxxxx&#xD;&#xA;xxxxxxxxxxx&#xD;&#xA;xxxxxxxxxxxxxxx&#xD;&#xA;xxxxxx" measuredWidth="225" measuredHeight="105">
+  <widgets xsi:type="model:Text" id="190" x="160" y="424" width="186" height="27" text="0000-0000-00-0000" measuredWidth="186" measuredHeight="27">
     <font size="18px"/>
   </widgets>
+  <widgets xsi:type="model:Text" id="191" x="176" y="456" width="170" height="27" text="0000-00-000-0000" measuredWidth="170" measuredHeight="27">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="192" x="160" y="488" width="186" height="27" text="ครุภัณฑ์คอมพิวเตอร์" measuredWidth="186" measuredHeight="27">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="193" x="160" y="520" width="186" height="27" text="จอมอนิเตอร์" measuredWidth="186" measuredHeight="27">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="194" x="169" y="552" width="176" height="27" text="2563" measuredWidth="176" measuredHeight="27">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="195" x="160" y="584" width="186" height="27" text="เงินอุดหนุนโครงการพัฒนา....." measuredWidth="186" measuredHeight="27">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="196" x="503" y="424" width="155" height="27" text="8,360 บาท" measuredWidth="155" measuredHeight="27">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="197" x="503" y="456" width="155" height="27" text="17/มิ.ย./2563" measuredWidth="155" measuredHeight="27">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="198" x="510" y="484" width="179" height="27" text="บริษัท ชิชาง คอมพิวเตอร์" measuredWidth="179" measuredHeight="27">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="199" x="503" y="520" width="155" height="27" text="-" measuredWidth="155" measuredHeight="27">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="200" x="503" y="552" width="155" height="27" text="นาย ......... ..............." measuredWidth="155" measuredHeight="27">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="201" x="503" y="584" width="155" height="27" text="-" measuredWidth="155" measuredHeight="27">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="202" x="939" y="738" width="97" height="41" text="กลับ" measuredWidth="97" measuredHeight="41" link="show_data_2.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="203" x="824" y="738" width="106" height="41" text="ดู QR code" measuredWidth="106" measuredHeight="41" link="QRcode.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="204" x="576" y="736" width="97" height="41" text="แก้ไข" measuredWidth="97" measuredHeight="41" link="edit.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="205" x="136" y="189" width="449" height="188" measuredWidth="449" measuredHeight="188"/>
+  <widgets xsi:type="model:Breadcrumbs" id="206" x="521" y="376" text="1,2,3" measuredWidth="64" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="7" height="23" text="1"/>
+    <items x="27" y="0" width="7" height="23" text="2"/>
+    <items x="54" y="0" width="7" height="23" text="3"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="208" x="69" y="654" width="155" height="27" text="-" measuredWidth="155" measuredHeight="27">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="209" x="704" y="424" width="336" height="241" text="files" measuredWidth="336" measuredHeight="241">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="210" x="720" y="480" width="241" measuredWidth="241" measuredHeight="33">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="211" x="969" y="480" width="38" height="33" measuredWidth="38" measuredHeight="33" icon="closed (custom)"/>
+  <widgets xsi:type="model:Text" id="212" x="720" y="528" width="241" height="89" text="* [device.ptf]&#xD;&#xA;* [specification.ptf]" measuredWidth="241" measuredHeight="89">
+    <font size="18px"/>
+    <items x="40" y="0" width="77" height="25" text="device.ptf"/>
+    <items x="40" y="25" width="125" height="25" text="specification.ptf"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="213" x="944" y="616" width="81" height="41" text="อัพโหลด" measuredWidth="81" measuredHeight="41">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="214" x="951" y="536" width="19" height="17" measuredWidth="19" measuredHeight="17" icon="circled-minus (custom)"/>
+  <widgets xsi:type="model:Icon" id="215" x="951" y="564" width="19" height="17" measuredWidth="19" measuredHeight="17" icon="circled-minus (custom)"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
